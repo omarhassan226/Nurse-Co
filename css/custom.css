@@ -160,6 +160,41 @@ body {
 	overflow: hidden;
 }
 
+.subscribe-box {
+	background-color: #1B537C;
+	/* Blue background */
+	padding: 10px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 500px;
+	margin: 25px auto;
+}
+
+.subscribe-box input {
+	border: none;
+	outline: none;
+	padding: 10px;
+	flex: 1;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.subscribe-box button {
+	background: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #1B537C;
+	transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+	background: #f1f1f1;
+}
+
 .image-anime:after {
 	content: "";
 	position: absolute;
